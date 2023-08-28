@@ -2,12 +2,12 @@ StatinReInitiation
 =================
 <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started">
 
-- Analytics use case(s): **PLE**
+- Analytics use case(s): **Population-Level Estimation**
 - Study type: **Clinical Application**
 - Tags: **OHDSI, statin**
-- Study lead: **Dong Yun Lee, MD, The Ajou University** // 
-              **Chungsoo Kim, PharmD, The Ajou University** 
-- Study lead forums tag:  **[Dong Yun Lee](https://github.com/ABMI)**
+- Study lead: **Harrin Kim, The Ajou University** // 
+              ** Kim, MD, The Ajou University** 
+- Study lead forums tag:  **[Harrin Kim](https://github.com/ABMI)**
 - Study start date: **1st August, 2023**
 - Study end date: **-**
 - Protocol: **-**
