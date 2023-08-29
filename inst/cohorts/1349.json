@@ -1,0 +1,3920 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201820,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "73211009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[cbj] diabetes",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596723",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cerivastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HGB] Statin",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4182210,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "52448006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Dementia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4047745,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230282000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Traumatic encephalopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 376095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191493005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug-induced dementia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HGB] All Dementia (Condition)",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1594973,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2404",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlorpropamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1560171,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4821",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glipizide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1559684,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4815",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glyburide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100699",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1440051",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lixisenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1503297,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6809",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502809,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10633",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tolazamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502855,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10635",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tolbutamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816332,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1534763",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "albiglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013884,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368001",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43526465,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1373458",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "canagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44785829,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1488564",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774435,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1551291",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dulaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774751,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545653",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793293,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1992672",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1583722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60548",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "exenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597756,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25789",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19097821,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25793",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gliquidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40170911,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "475968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "liraglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "857974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793143,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1991302",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "semaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1580747,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "593411",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596554",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[TROY] antidiabetic drugs",
+      "id": 6
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1545958,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "83367",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "atorvastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] atorva Statin",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57054005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22298006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488617,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I64",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Stroke, not specified as haemorrhage or infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321318,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194828000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina pectoris",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442615,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64586002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Carotid artery stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488620,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I65.1",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of basilar artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488621,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I65.2",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of carotid artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488626,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I66.0",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of middle cerebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488631,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I66.8",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of other cerebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488632,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I66.9",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of unspecified cerebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488619,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I65.0",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Occlusion and stenosis of vertebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4048785,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230717002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Vertebrobasilar territory transient ischemic attack",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 198177,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233985008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Abdominal aortic aneurysm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488704,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I71.4",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Abdominal aortic aneurysm, without mention of rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317585,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "67362008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic aneurysm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488708,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I71.9",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Aortic aneurysm of unspecified site, without mention of rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488700,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I71.20",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Ascending thoracic aortic aneurysm, without mention of rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488701,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I71.21",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Descending thoracic aortic aneurysm, without mention of rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 441051,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "74883004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Thoracic aortic aneurysm without rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436996,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233984007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Thoracoabdominal aortic aneurysm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42488706,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "I71.6",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Thoracoabdominal aortic aneurysm, without mention of rupture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] ASCVD",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] 7 Statin",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without atorva",
+      "id": 10
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1510813,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "301542",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "rosuvastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] rosuva statin",
+      "id": 11
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without rosuva",
+      "id": 12
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40165636,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "861634",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "pitavastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] pitava statin",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without pitava",
+      "id": 14
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1551860,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "42463",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "pravastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] prava statin",
+      "id": 15
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1539403,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "36567",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "simvastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] simva statin",
+      "id": 16
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1549686,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "41127",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "fluvastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] fluva statin",
+      "id": 17
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1592085,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "6472",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "lovastatin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] lova statin",
+      "id": 18
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without prava",
+      "id": 19
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without simva",
+      "id": 20
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without fluva",
+      "id": 21
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] Statin without lova",
+      "id": 22
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545994,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "597983",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin 40 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545961,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "329299",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin 80 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] atorva High Intensity (40-80)",
+      "id": 23
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40165252,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "859750",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "rosuvastatin calcium 20 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] rosuva High Intensity (20-40)",
+      "id": 24
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 964196,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "2001336",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "pitavastatin calcium 4 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] pitava High Intensity (2-4)",
+      "id": 25
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 42970632,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "OMOP4697057",
+          "VOCABULARY_ID": "RxNorm Extension",
+          "CONCEPT_NAME": "Pravastatin 40 MG [MEVALOTIN]",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Branded Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] prava High Intensity (40-80)",
+      "id": 26
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539465,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "316673",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin 20 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539466,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "316674",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin 40 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] simva High Intensity (20-80)",
+      "id": 27
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 19086163,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "330788",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "fluvastatin 80 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] fluva High Intensity (80)",
+      "id": 28
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122208,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "597970",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin 10 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545992,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "597966",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin 20 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] atorva Low Intensity (10-20)",
+      "id": 29
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40165244,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "859746",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "rosuvastatin calcium 10 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] rosuva Low Intensity (5-10)",
+      "id": 30
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 964194,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "2001331",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "pitavastatin calcium 2 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] pitava Low Intensity (1)",
+      "id": 31
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42970628,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4697053",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Pravastatin 10 MG [MEVALOTIN]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19089429,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "333207",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin 5 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] prava Low Intensity (10-20)",
+      "id": 32
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1539464,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "316672",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "simvastatin 10 MG",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[HRK] simva Low Intensity (5-10)",
+      "id": 33
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "328265",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin 20 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549723,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "328267",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin 40 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HRK] fluva Low Intensity (20-40)",
+      "id": 34
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 9,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 181,
+            "Coeff": 1
+          },
+          "End": {
+            "Days": 365,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "DrugSourceConcept": null,
+          "CodesetId": 9,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 0,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 0
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "statin discontinuation",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 7,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 10,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 7,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 11,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 12,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 11,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 13,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 14,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 13,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 15,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 19,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 15,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 16,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 20,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 16,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 17,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 21,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 17,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 18,
+                "AgeAtEnd": null,
+                "First": true,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugEra": {
+                "EraStartDate": null,
+                "CorrelatedCriteria": null,
+                "OccurrenceCount": null,
+                "AgeAtStart": null,
+                "GapDays": null,
+                "CodesetId": 22,
+                "AgeAtEnd": null,
+                "First": null,
+                "Gender": null,
+                "EraLength": {
+                  "Op": "gt",
+                  "Extent": null,
+                  "Value": 30
+                },
+                "EraEndDate": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 18,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 23,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 29,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 23,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 24,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 30,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 24,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 25,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 31,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 25,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": null,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 26,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 32,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 26,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 27,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 33,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 27,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 180,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 28,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": true,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 366,
+                  "Coeff": 1
+                },
+                "End": {
+                  "Days": 730,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"DrugExposure": {
+                "OccurrenceEndDate": null,
+                "CorrelatedCriteria": null,
+                "DrugSourceConcept": null,
+                "CodesetId": 34,
+                "DrugTypeExclude": false,
+                "Quantity": null,
+                "DrugType": null,
+                "ProviderSpecialty": null,
+                "EffectiveDrugDose": null,
+                "Gender": null,
+                "DaysSupply": null,
+                "DoseUnit": null,
+                "VisitType": null,
+                "Refills": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "RouteConcept": null,
+                "StopReason": null,
+                "LotNumber": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "CountColumn": null,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 28,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 730,
+      "PriorDays": 180
+    }
+  }
+}
