@@ -1,56 +1,88 @@
-library(StatinReInitiation0829v2)
+library(StatinReInitiation0829v3)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
-options(andromedaTempFolder = "d:/andromedaTemp")
+options(andromedaTempFolder = "s:/andromedaTemp")
+
+
 
 # Maximum number of cores to be used:
-maxCores <- parallel::detectCores() - 1
+# maxCores <- parallel::detectCores()
+maxCores <- 30
+
+
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "d:/StatinReInitiation0829v2"
+outputFolder <- "/home/harrin1998/HRK_R/Output/tutorial/StatinReInitiation0829v3"
+
+
+
+# java
+Sys.setenv('DATABASECONNECTOR_JAR_FOLDER'='/home/harrin1998/jdbc')
+
+
 
 # Details for connecting to the server:
-connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "redshift",
-                                                                connectionString = keyring::key_get("redShiftConnectionStringOhdaMdcr"),
-                                                                user = keyring::key_get("redShiftUserName"),
-                                                                password = keyring::key_get("redShiftPassword"))
+connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
+                                                                server = '10.5.99.50',
+                                                                user = 'harrin1998',
+                                                                password = 'qlqjs1998@',
+                                                                port = '1433',
+                                                                pathToDriver = Sys.getenv("DATABASECONNECTOR_JAR_FOLDER"))
+
+
+
 
 # The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema <- "cdm_truven_mdcr_v1911"
+cdmDatabaseSchema <- "CDMPv535_ABMI.dbo"
+
+
 
 # The name of the database schema and table where the study-specific cohorts will be instantiated:
-cohortDatabaseSchema <- "scratch_mschuemi"
-cohortTable <- "estimation_skeleton"
+cohortDatabaseSchema <- "cohortDb.dbo"
+cohortTable <- "HRK_PLE_StatinReInitiation0829v3"
+
+
 
 # Some meta-information that will be used by the export function:
-databaseId <- "IBM_MDCR"
-databaseName <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database"
-databaseDescription <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database (MDCR) represents health services of retirees in the United States with primary or Medicare supplemental coverage through privately insured fee-for-service, point-of-service, or capitated health plans.  These data include adjudicated health insurance claims (e.g. inpatient, outpatient, and outpatient pharmacy). Additionally, it captures laboratory tests for a subset of the covered lives."
+databaseId <- "CDMPv535_ABMI.dbo"
+databaseName <- "CDMPv535_ABMI.dbo"
+databaseDescription <- "CDMPv535_ABMI.dbo"
 
-# For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
-options(sqlRenderTempEmulationSchema = NULL)
+
+
+
+# For Oracle: define a schema that can be used to emulate temp tables:
+oracleTempSchema <- NULL
+
+
 
 execute(connectionDetails = connectionDetails,
         cdmDatabaseSchema = cdmDatabaseSchema,
         cohortDatabaseSchema = cohortDatabaseSchema,
         cohortTable = cohortTable,
+        oracleTempSchema = oracleTempSchema,
         outputFolder = outputFolder,
         databaseId = databaseId,
         databaseName = databaseName,
         databaseDescription = databaseDescription,
-        verifyDependencies = TRUE,
-        createCohorts = TRUE,
-        synthesizePositiveControls = TRUE,
-        runAnalyses = TRUE,
-        packageResults = TRUE,
+        createCohorts = T,
+        synthesizePositiveControls = F,
+        runAnalyses = F,
+        packageResults = F,
         maxCores = maxCores)
+
+
 
 resultsZipFile <- file.path(outputFolder, "export", paste0("Results_", databaseId, ".zip"))
 dataFolder <- file.path(outputFolder, "shinyData")
 
+
+
 # You can inspect the results if you want:
 prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
-launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
+launchEvidenceExplorer(dataFolder = dataFolder, blind = FALSE, launch.browser = FALSE)
+
+
 
 # Upload the results to the OHDSI SFTP server:
 privateKeyFileName <- ""

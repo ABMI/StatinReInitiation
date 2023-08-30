@@ -1,9 +1,9 @@
 # This file contains code to be used by the study coordinator to download result files from the SFTP server and perform a meta-analysis.
-library(StatinReInitiation0829v2)
+library(StatinReInitiation0829v3)
 library(OhdsiSharing)
 
 # Folder on the local file system where the result zip files will be downloaded to from the SFTP server:
-allDbsFolder <- "s:/StatinReInitiation0829v2/AllResults"
+allDbsFolder <- "s:/StatinReInitiation0829v3/AllResults"
 if (!file.exists(allDbsFolder))
   dir.create(allDbsFolder, showWarnings = FALSE, recursive = TRUE)
 

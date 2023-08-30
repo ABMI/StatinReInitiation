@@ -1,6 +1,6 @@
 # Code that can be used to test whether the meta-analysis functionality works
-library(StatinReInitiation0829v2)
-exportFolder <- "D:/StatinReInitiation0829v2/export"
+library(StatinReInitiation0829v3)
+exportFolder <- "D:/StatinReInitiation0829v3/export"
 
 # Create a dummy additional database by copying all CSV files and changing the database ID --------------------------------
 databaseId <- "Dummy"

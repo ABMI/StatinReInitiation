@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of StatinReInitiation0829v2
+# This file is part of StatinReInitiation0829v3
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,14 +18,14 @@
 install.packages("styler")
 styler::style_pkg()
 remotes::install_github("ohdsi/OhdsiRTools")
-OhdsiRTools::checkUsagePackage("StatinReInitiation0829v2")
+OhdsiRTools::checkUsagePackage("StatinReInitiation0829v3")
 OhdsiRTools::updateCopyrightYearFolder()
 install.packages("devtools")
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/StatinReInitiation0829v2.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/StatinReInitiation0829v2.pdf")
+unlink("extras/StatinReInitiation0829v3.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/StatinReInitiation0829v3.pdf")
 
 # Create vignettes ---------------------------------------------------------
 install.packages("rmarkdown")
@@ -51,7 +51,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "Cohorts.csv",
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "StatinReInitiation0829v2")
+                                                 packageName = "StatinReInitiation0829v3")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -59,7 +59,7 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile(rootPackage = "StatinReInitiation0829v2",
+OhdsiRTools::createRenvLockFile(rootPackage = "StatinReInitiation0829v3",
                                 mode = "description",
                                 includeRootPackage = FALSE,
                                 additionalRequiredPackages = "keyring")

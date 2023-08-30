@@ -147,7 +147,7 @@
       "riskWindowEnd": 730,
       "firstExposureOnly": false
     },
-    "description": "1:1 matching",
+    "description": "1:1 matching (TAR 730)",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -431,7 +431,7 @@
       "riskWindowEnd": 730,
       "firstExposureOnly": false
     },
-    "description": "1:5 matching",
+    "description": "1:5 matching (TAR 730)",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -715,7 +715,7 @@
       "riskWindowEnd": 99999,
       "firstExposureOnly": false
     },
-    "description": "Copy of 1:5 matching",
+    "description": "1:5 matching (TAR 99999)",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -999,7 +999,7 @@
       "riskWindowEnd": 99999,
       "firstExposureOnly": false
     },
-    "description": "Copy of 1:1 matching",
+    "description": "1:1 matching (TAR 99999)",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"

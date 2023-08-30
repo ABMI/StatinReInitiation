@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "StatinReInitiation0829v2"
+		"find": "StatinReInitiation0829v3"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "StatinReInitiation0829v2"
+		"find": "StatinReInitiation0829v3"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

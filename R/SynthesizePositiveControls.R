@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of StatinReInitiation0829v2
+# This file is part of StatinReInitiation0829v3
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,13 +30,13 @@ synthesizePositiveControls <- function(connectionDetails,
   synthesisSummaryFile <- file.path(outputFolder, "SynthesisSummary.csv")
   if (!file.exists(synthesisSummaryFile)) {
     pathToCsv <- system.file("settings", "NegativeControls.csv", 
-                             package = "StatinReInitiation0829v2")
+                             package = "StatinReInitiation0829v3")
     negativeControls <- read.csv(pathToCsv)
     exposureOutcomePairs <- data.frame(exposureId = negativeControls$targetId,
                                        outcomeId = negativeControls$outcomeId)
     exposureOutcomePairs <- unique(exposureOutcomePairs)
     pathToJson <- system.file("settings", "positiveControlSynthArgs.json", 
-                              package = "StatinReInitiation0829v2")
+                              package = "StatinReInitiation0829v3")
     args <- ParallelLogger::loadSettingsFromJson(pathToJson)
     args$control$threads <- min(c(10, maxCores))
     
@@ -82,7 +82,7 @@ synthesizePositiveControls <- function(connectionDetails,
   }
   ParallelLogger::logTrace("Merging positive with negative controls ")
   pathToCsv <- system.file("settings", "NegativeControls.csv", 
-                           package = "StatinReInitiation0829v2")
+                           package = "StatinReInitiation0829v3")
   negativeControls <- read.csv(pathToCsv)
   
   synthesisSummary <- read.csv(synthesisSummaryFile)
@@ -94,7 +94,7 @@ synthesizePositiveControls <- function(connectionDetails,
   synthesisSummary$outcomeId <- synthesisSummary$newOutcomeId
   
   pathToCsv <- system.file("settings", "NegativeControls.csv", 
-                           package = "StatinReInitiation0829v2")
+                           package = "StatinReInitiation0829v3")
   negativeControls <- read.csv(pathToCsv)
   negativeControls$targetEffectSize <- 1
   negativeControls$trueEffectSize <- 1

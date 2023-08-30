@@ -1,4 +1,4 @@
-StatinReInitiation0829v2
+StatinReInitiation0829v3
 ==============================
 
 
@@ -19,7 +19,7 @@ How to run
 
     ```r
     install.packages("renv")
-    download.file("https://raw.githubusercontent.com/ohdsi-studies/StatinReInitiation0829v2/main/renv.lock", "renv.lock")
+    download.file("https://raw.githubusercontent.com/ohdsi-studies/StatinReInitiation0829v3/main/renv.lock", "renv.lock")
     renv::init()
     ```  
     
@@ -28,7 +28,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
     ```r
-    library(StatinReInitiation0829v2)
+    library(StatinReInitiation0829v3)
 
     # Optional: specify where the temporary files (used by the Andromeda package) will be created:
     options(andromedaTempFolder = "s:/andromedaTemp")
@@ -40,7 +40,7 @@ How to run
     minCellCount <- 5
 	
     # The folder where the study intermediate and result files will be written:
-    outputFolder <- "c:/StatinReInitiation0829v2"
+    outputFolder <- "c:/StatinReInitiation0829v3"
 	
     # Details for connecting to the server:
     # See ?DatabaseConnector::createConnectionDetails for help
@@ -99,11 +99,11 @@ How to run
 
 License
 =======
-The StatinReInitiation0829v2 package is licensed under Apache License 2.0
+The StatinReInitiation0829v3 package is licensed under Apache License 2.0
 
 Development
 ===========
-StatinReInitiation0829v2 was developed in ATLAS and R Studio.
+StatinReInitiation0829v3 was developed in ATLAS and R Studio.
 
 ### Development status
 
