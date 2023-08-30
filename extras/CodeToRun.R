@@ -22,11 +22,11 @@ Sys.setenv('DATABASECONNECTOR_JAR_FOLDER'='/home/harrin1998/jdbc')
 
 
 # Details for connecting to the server:
-connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
-                                                                server = '10.5.99.50',
-                                                                user = 'harrin1998',
-                                                                password = 'qlqjs1998@',
-                                                                port = '1433',
+connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "server name",
+                                                                server = "server",
+                                                                user = "user name",
+                                                                password = "password",
+                                                                port = "port num",
                                                                 pathToDriver = Sys.getenv("DATABASECONNECTOR_JAR_FOLDER"))
 
 
